@@ -1,0 +1,16 @@
+{
+  "name": "redux_course",
+  "version": "1.0.0",
+  "description": "Redux Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ivan Zabrodin",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-hot-middleware": "^2.22.3"
+  }
+}
