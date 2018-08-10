@@ -21,6 +21,15 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        loaders: ['eslint'],
+        include: [
+          path.resolve(__dirname, "src"),
+        ],
+      }
+    ],
+    rules: [
+      {
         include: [
           path.resolve(__dirname, "src"),
         ],

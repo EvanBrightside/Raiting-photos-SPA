@@ -3,7 +3,7 @@ import { hot } from 'react-hot-loader'
 
 const App = class App extends Component {
   render() {
-    return <div>Привет из bssjjjsbb</div>
+    return <div>Привет из App</div>
   }
 }
 
