@@ -19,16 +19,7 @@ module.exports = {
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.LoaderOptionsPlugin({
-          options: {
-            context: __dirname,
-            postcss: [
-              autoprefixer,
-              precss
-            ]
-          }
-        })
+    new webpack.NoEmitOnErrorsPlugin()
   ],
   module: {
     rules: [
